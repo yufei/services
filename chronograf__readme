@@ -1,0 +1,7 @@
+no config file
+
+chronoctl
+chronograf
+
+BOLT_PATH=/var/lib/chronograf/chronograf-v1.db
+and a backup volume
