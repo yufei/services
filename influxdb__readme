@@ -1,0 +1,20 @@
+create database dbname
+use dbname
+
+create user username with password 'password' [with all privileges]
+
+insert a-line-protocol-point
+
+select tag or field from measurement
+select * from measurement limit
+select * from measurement where
+select * from /.*/ limit 1
+
+delete from measurement where 
+
+drop database dbname
+drop user username
+
+line protocol
+=============
+<measurement>[,<tag-key>=<tag-value>...] <field-key>=<field-value>[,<field2-key>=<field2-value>...] [unix-nano-timestamp]
